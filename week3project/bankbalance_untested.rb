@@ -3,7 +3,7 @@
 
 @balance = []
 
-# class BankBalance
+class BankBalance
 
   def deposit
     puts "how much would you like to deposit today?"
@@ -45,7 +45,7 @@
 
   prompt.new
 
-# end
+end
 
 puts "Welcome to the Iron Yard Bank"
 BankBalance.new
